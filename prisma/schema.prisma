@@ -1,0 +1,16 @@
+// Created by Alberto Drake | GitHub: https://github.com/albertodrake
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model GuildSettings {
+  id               String  @id // Guild Discord ID
+  dealsChannelId   String?
+  freebiesChannelId String?
+  minSavings       Int     @default(0)
+}

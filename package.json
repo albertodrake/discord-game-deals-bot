@@ -1,0 +1,22 @@
+{
+  "name": "discord-game-deals-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot to track game deals in INR with Epic Games support.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
+    "winston": "^3.11.0",
+    "@prisma/client": "^5.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prisma": "^5.5.2"
+  }
+}
