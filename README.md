@@ -56,7 +56,7 @@ DATABASE_URL="file:./dev.db"
 ```
 
 ### 4. Database Setup
-Run the following command to initialize the SQLite database:
+Run the following command to initialize the MySQL database:
 ```bash
 npx prisma db push
 ```
